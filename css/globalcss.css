@@ -41,6 +41,10 @@
           border-right: 1px solid #dcdcdc;
           text-decoration: none;
         }
+        .globalnavlink:first-child{
+          border-left: 1px solid #dcdcdc;
+        }
+
 
         .globalnavlink:hover, .globalnavlink:active{
           color:#fff;

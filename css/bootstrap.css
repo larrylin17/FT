@@ -3818,7 +3818,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  text-decoration: none;
+  text-decoration: underline;
   //background-color: #eeeeee;  
   //commented by larry
 }
