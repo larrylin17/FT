@@ -34,16 +34,23 @@
             padding:0;
         }
 
+        .nav li{
+           border-left: 1px solid #dcdcdc;
+           border-right: 0px solid #dcdcdc;
+        }
+
+        .nav li:last-child{
+          border-left: 1px solid #dcdcdc;
+          border-right:1px solid #dcdcdc; 
+        }
+
         .globalnavlink{
           color:#161617;
           font-size: 14px;
           font-family: "eurostile-bold-webfont";
-          border-right: 1px solid #dcdcdc;
           text-decoration: none;
         }
-        .globalnavlink:first-child{
-          border-left: 1px solid #dcdcdc;
-        }
+
 
 
         .globalnavlink:hover, .globalnavlink:active{
