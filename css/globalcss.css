@@ -1,0 +1,379 @@
+       html,body{
+          background-color:#d1d1d1;
+       }
+
+     
+       p{
+          font-size: 14px;
+          font-family: "arial";
+          line-height: 18px;
+       }
+
+       /*Overwrite the default value in bootstrap.css*/
+      .form-control:focus {
+        border-color: #faae53;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(250, 174, 83, 0.6);
+                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(250, 174, 83, 0.6);
+      }
+
+      /**globalnav start**/
+        .globalnav{
+          margin-bottom: 0px;
+          border:0;
+          min-height:50px;
+          height:auto;
+        }
+        
+        .globalnavbar{
+          background: #efefef;
+          margin:0;
+        }
+
+        .navbar-brand{
+            padding:0;
+        }
+
+        .globalnavlink{
+          color:#161617;
+          font-size: 14px;
+          font-family: "eurostile-bold-webfont";
+          border-right: 1px solid #dcdcdc;
+          text-decoration: none;
+        }
+
+        .globalnavlink:hover, .globalnavlink:active{
+          color:#fff;
+          background:#f7931d;
+          text-decoration: underline;
+        }
+       /**Top Navigation part end**/
+       .mybody{
+          background:#fafafa;
+          margin-top: 0;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          box-shadow: 0px 3px 5px 3px #777;
+       }
+       .main{
+          padding:30px 100px 30px 40px;
+          //border:1px solid #000;
+       }
+       /**Article start**/
+       .article{         
+          
+       }
+       .articleheader{
+          color:#161617;
+          font-size: 36px;
+          font-family: "eurostile-bold-webfont";
+          margin-bottom: 20px;
+       }
+       .articlecontent{
+         color:#4c4c4e;
+       }
+
+       .insideblock{
+         border:1px solid #e2e3e4;
+         box-shadow: 0px 2px 5px 3px #ddd;
+         float: right;
+       }
+
+       .blocktitle{
+         height:25px;
+         background-color: #f7931d;
+         padding-top:3px;
+         padding-left:3px;
+       }
+       .blockcontent, .blockvideo{
+         padding:20px;
+       }
+       .morelist{
+        clear:both;
+        margin-top:15px;
+       }
+       .morelist ul{
+         margin: 0;
+         padding: 0;
+       }
+       .morelist ul li{
+         list-style-type: none;
+         display: inline-block;
+         width:190px;
+         height:25px;
+         margin:0 50px 20px 0;
+         padding-left: 30px;
+         background-image: url('../images/listimage.png');
+       }
+       .morelist ul li a{
+         font-size:14px;
+         font-family: "arial";
+         color:#000;
+       }
+
+       /**Article end**/
+
+       /**siderbar start**/
+       .sidebar{
+          //border:1px solid #000;
+          padding:50px 40px 15px 0;
+       }
+       .documentation, .myform{
+          width:100%;
+          border:1px solid #e2e3e4;
+          padding: 0;
+       }
+       .documentationtitle, .myformtitle{
+          color:#313233;
+          font-family: "eurostile-bold-webfont";
+          font-size: 18px;
+          height:36px;
+          padding:6px 10px;
+          border-bottom: 1px solid #e2e3e4;
+       }
+       .documentationcontent ul{
+         padding-left:0px;
+       }
+       .documentationcontent ul li{
+         list-style-image: url('../images/listimage2.png');
+         margin:10px 0;
+       }
+       .documentationcontent ul li a{
+         font-family: "eurostile-webfont";
+         font-size: 18px;
+         color:#939597;
+       }
+
+       .myform{
+         margin-top: 25px;
+       }
+       .myform-row{
+         padding: 10px;
+       }
+       .mybutton{
+        width:140px;
+        height: 30px;
+        background:#f7931d;
+        border-radius: 5px;
+        font-family: "eurostile-webfont";
+        font-size: 18px;
+        color: #fff;
+        border:none;
+        outline: none;
+       }
+
+       .mybutton:hover{
+        background:#faae53;
+       }
+       /**siderbar end**/
+       /**Media List start**/
+       .medialistheader{
+          color:#313233;
+          font-size: 30px;
+          font-family: "eurostile-bold-webfont";
+          text-align: center;
+       } 
+       .medialist{
+          text-align: center;
+       }
+       .medialist ul li{
+          list-style-type: none;
+          display: inline-block;
+          margin:10px;
+       }
+       .morebutton{
+          margin-top:40px;
+          margin-bottom:40px;
+          text-align: center;
+       }
+       /**Media List end**/
+       /**Link and Social start**/
+       .linksocial{
+         background: #313233;
+         padding-bottom: 15px;
+       }
+
+       .sitemap{
+           width:67%;
+           float: left;
+       }
+       .socialmedia{
+           width:33%;
+           float: right;
+       }
+       .linkheader{
+          color:#4c4c4e;
+          font-size: 24px;
+          font-family: "eurostile-bold-webfont";
+          text-align: center;
+          padding-top:15px;
+          padding-bottom:15px;
+       }
+       .linklist{
+          margin: 0;
+          padding-left:40px;
+       }
+       .linklist li{
+          list-style-type: none;
+       }
+       .linklist li a{
+          color:#939597;
+          font-size:14px;
+          font-family: "arial";
+          text-decoration: none;
+       }
+       .linklist li a:hover{
+          color:#fff;
+       }
+
+       .sociallist li{
+          list-style-type: none;
+       }
+       .sociallist li a{
+          display:block;
+          width:31px;
+          height:31px;
+          background: #4c4c4e;
+          border-radius: 5px;
+          margin-bottom: 5px;
+          padding:5px 0 0 2px;
+       }
+       .sociallist li a:hover{
+          background: #fff;
+       }
+
+       .twitterlist{
+         list-style-type: none;
+         margin: 0 20px 0 20px;
+         padding:0;
+       }
+
+       .twitterlist li{
+          border-top: 1px solid #939597;
+          padding:10px 0;
+       }
+
+       .twitterlist li:first-child{
+          border-top: 0px solid #939597;
+          padding:0 0 10px 0;
+       }       
+
+       .twitterheader{
+          color:#e2e3e4;
+          font-size: 16px;
+          font-family: "eurostile-webfont";
+          width:90%;
+          float: left;
+       }
+       .twitterdate{
+          color:#e2e3e4;
+          font-size: 12px;
+          font-family: "eurostile-webfont";
+          width:10%;
+          text-align: right;
+          float: right;
+       }
+       .twittercontent{
+          clear: both;
+          color:#939597;
+          font-size: 14px;
+          font-family: "arial";
+       }
+
+       .newsletterrow{
+          margin-bottom: 5px;  
+          padding-right: 40px;
+       }
+       .newsletterbutton{
+          margin-top:20px;
+          padding-right: 40px;
+       }
+
+       .newslettercontent{
+          color:#939597;
+          font-size: 12px;
+          font-family: "arial";
+       }
+       
+       .darkinput{
+         background: #222;
+         color:#4c4c4e;
+         border:1px solid #4c4c4e;
+         border-radius: 0;
+         outline: none;
+       }
+
+        /*overright bootstrap*/
+       .input-group-addon{
+          padding-left:5px;
+          padding-right:5px;
+       }
+
+       .linksociallink{
+          color:#f7931d;
+          text-decoration: none;
+       }
+       .linksociallink:hover{
+          color:#faae53;
+          text-decoration: underline;
+       }    
+
+       /**Link and Social end**/
+       /**footer start**/
+       .footer{
+         font-family: "eurostile-bold-webfont"; 
+         font-size: 12px;
+         color:#313233;
+         padding:11px 40px;
+       }
+       /**footer end**/
+      
+      /**dark checkbox**/
+       input[type=checkbox].css-checkbox {
+            display:none;
+       }
+
+       input[type=checkbox].css-checkbox + label.css-label {
+          padding-left:30px;
+          height:13px; 
+          display:inline-block;
+          line-height:13px;
+          background-repeat:no-repeat;
+          background-position: 0 0;
+          font-size:12px;
+          vertical-align:middle;
+          cursor:pointer;
+        }
+
+        input[type=checkbox].css-checkbox:checked + label.css-label {
+          background-position: 0 -13px;
+        }
+
+        label.css-label {
+        background-image:url('../images/checkbox.png');
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }   
+
+    /**Responsive setting**/
+    @media (max-width: 768px){
+       .main{ 
+         padding:20px 20px 20px 20px;
+       }
+       .sidebar{
+         padding:20px 20px 15px 20px;
+       }
+       .newsletterrow{
+         padding:0 40px 5px 40px;
+       }
+       .insideblock{
+         margin:20px;
+       }
+       .morelist{
+         margin-left:20px;
+       }
+    } 
